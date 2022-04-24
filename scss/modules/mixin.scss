@@ -1,0 +1,19 @@
+@import './variables.scss';
+
+// mixin Tu Semogvaqvs backgroundad surati
+@mixin background ($bg-size, $bg-repeat, $bg-position)
+{
+    background-size: $bg-size;
+    background-repeat: $bg-repeat;
+    background-position: $bg-position;
+}
+
+@mixin width($size){
+    @if($size == $size01){
+        background:$color01;
+    } @else if($size == $size02){
+        background: $color02;
+    } @else {
+        background: $color03;
+    }
+}
