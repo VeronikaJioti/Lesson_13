@@ -17,3 +17,9 @@
         background: $color03;
     }
 }
+
+@mixin  flex-property($horizontal, $vertical){
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+    

@@ -1,0 +1,7 @@
+@import '../modules/variables.scss';
+@import '../modules/mixin.scss';
+@import '../modules/classes.scss';
+
+@media (max-width:1024px) {
+    @include flex-property(center, center);
+}
